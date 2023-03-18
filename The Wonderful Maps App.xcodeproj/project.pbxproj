@@ -20,6 +20,7 @@
 		8C301F3629C58041008C0BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C301F3929C58041008C0BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C301F3B29C58041008C0BFC /* The_Wonderful_Maps_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Wonderful_Maps_App.entitlements; sourceTree = "<group>"; };
+		8CA98F6429C59B450005F5E4 /* The-Wonderful-Maps-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "The-Wonderful-Maps-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		8C301F3129C58040008C0BFC /* The Wonderful Maps App */ = {
 			isa = PBXGroup;
 			children = (
+				8CA98F6429C59B450005F5E4 /* The-Wonderful-Maps-App-Info.plist */,
 				8C301F3229C58040008C0BFC /* AppDelegate.swift */,
 				8C301F3429C58040008C0BFC /* ViewController.swift */,
 				8C301F3629C58041008C0BFC /* Assets.xcassets */,
@@ -275,6 +277,7 @@
 				DEVELOPMENT_TEAM = 9YBXQ89946;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Wonderful-Maps-App-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -302,6 +305,7 @@
 				DEVELOPMENT_TEAM = 9YBXQ89946;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Wonderful-Maps-App-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
